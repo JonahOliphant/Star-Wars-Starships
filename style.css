@@ -28,13 +28,13 @@
     align-items: center;
     justify-content: flex-start;
     background-color:  rgb(213, 255, 239);
-    
+    height: 100vh;
   }
   
   section {
     display: flex;
     align-items: center;
-    margin-left: 20%;
+    margin-left: 18%;
     transform: scale(150%);
   }
   
