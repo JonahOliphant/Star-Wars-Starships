@@ -30,13 +30,14 @@
     justify-content: flex-start;
     background-color:  rgb(213, 255, 239);
     height: 100%;
+    
   }
   
   section {
     display: flex;
     align-items: center;
-    margin-left: 18%;
-    transform: scale(150%);
+    margin-left: 16%;
+    transform: scale(100%);
   }
   
   .box {
