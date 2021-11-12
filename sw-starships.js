@@ -17,7 +17,7 @@ modalBackground.addEventListener('click', () => modal.classList.toggle('is-activ
 function populateNav(starships) {
   starships.forEach(starship => {
     let anchorWrap = document.createElement('a')
-    anchorWrap.href = '#'
+    anchorWrap.href = '#/'
     let listItem  = document.createElement('li')
     listItem.textContent = starship.name
     anchorWrap.addEventListener('click', () => {
