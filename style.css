@@ -6,7 +6,7 @@
 
 header {
   font-weight: bold;
-  color: white;
+  color: rgb(199, 255, 204);
   font-size: 2.5rem;
   text-align: center;
   background-color: rgb(0, 0, 0);
@@ -15,17 +15,27 @@ header {
 .nav {
   font-weight: bold;
   padding-left: 1rem;
-  min-width: 190px;
+  min-width: 207px;
   max-height: 100%;
-  font-size: 0.77rem;
+  font-size: 0.75rem;
   padding: 1rem;
   background-color: transparent;
+}
+
+li {
+ color: rgb(223, 255, 225);
+}
+
+li:hover{
+background-color:#290044;
+border-style: outset;
+border-color: rgb(255, 255, 255);
+border-width: 2px;
 }
 
 #main {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
   background-color: rgb(213, 255, 239);
   height: 100%;
   background-image: url("WallpaperDog-17271795.jpg");
@@ -36,8 +46,7 @@ header {
 section {
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-left: 18%;
+  margin-left: 15%;
   margin-right: 11%;
   transform: scale(160%);
 }
@@ -52,7 +61,7 @@ section {
 footer {
   font-weight: lighter;
   text-align: center;
-  color: white;
+  color: rgb(199, 255, 204);
   font-size: 1rem;
   background-color: rgb(0, 0, 0);
 }
