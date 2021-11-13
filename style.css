@@ -2,7 +2,6 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Marmelad", sans-serif;
-  height: auto;
 }
 
 header {
@@ -38,7 +37,7 @@ border-width: 2px;
   display: flex;
   align-items: center;
   background-color: rgb(213, 255, 239);
-  height: 100%;
+  height: 95vh;
   background-image: url("WallpaperDog-17271795.jpg");
   background-repeat: no-repeat;
   background-size: cover;
