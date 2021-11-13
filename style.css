@@ -37,7 +37,7 @@ border-width: 2px;
   display: flex;
   align-items: center;
   background-color: rgb(213, 255, 239);
-  height: 95vh;
+  min-height: 95vh;
   background-image: url("WallpaperDog-17271795.jpg");
   background-repeat: no-repeat;
   background-size: cover;
